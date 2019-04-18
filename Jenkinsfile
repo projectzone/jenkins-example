@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent Centos_201
 
     stages {
         stage ('Compile Stage') {
